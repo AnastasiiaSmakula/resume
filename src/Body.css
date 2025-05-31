@@ -1,0 +1,17 @@
+.body{
+    background-color: rgb(137, 209, 185);
+    display: flex;
+    justify-content: center;
+}
+
+.body-holder{
+    max-width: 1280px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.body-section{
+    width: 25rem;
+    padding: 5rem;
+    align-items: center;
+}
