@@ -1,10 +1,9 @@
-const Header = () => {
+const Panel = () => {
   return (
-    <header className="header">
+    <header className="header-panel">
       <h2>Anastasiia Smakula</h2>
       <div>
-        <a href="#about">About</a>
-        <a href="#resume">Resume</a>
+        <a href="#about">About me</a>
         <a href="#work">Work</a>
         <button>Get in touch!</button>
       </div>
@@ -12,4 +11,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Panel;
