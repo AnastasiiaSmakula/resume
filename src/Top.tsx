@@ -10,17 +10,32 @@ const Top = () => {
         <img src="./photo.png" className="body-photo"></img>
         <span className="body-photo-emoji-1"></span>
       </div>
-      <img></img>
-      <img></img>
-      <img></img>
       <p>
         I'm passionate about web development and love learning new technologies.
         I enjoy building clean, user-friendly applications and solving problems
         through code.
       </p>
-      <div>
-        <p>LI: /hdhhdh</p>
-        <p>IG: @ana.nnn</p>
+      <div className="social-links">
+        <p>
+          LI: {""}
+          <a
+            href="https://www.linkedin.com/in/anastasiia-smakula-310143369/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            /ana.sma
+          </a>
+        </p>
+        <p>
+          IG: {""}
+          <a
+            href="https://www.instagram.com/anastasiia.smakula/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            @anna.smakula
+          </a>
+        </p>
       </div>
     </div>
   );

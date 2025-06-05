@@ -4,29 +4,34 @@ const Body = () => {
     <div className="body">
       <div className="body-holder">
         <div className="body-section">
-          <h1>Hello, I am Anastasiia!</h1>
+          <h2>Hello, I am Anastasiia!</h2>
           <p>
             I'm a Full Stack Web Developer based in Canada, with a background in
             tech, communication, and customer experience. I recently graduated
             from Robertson College's Full Stack Web Development program and am
             excited to start building meaningful digital experiences.
           </p>
-          <button></button>
         </div>
 
         <div className="body-section">
           <h2>Education</h2>
           <ul>
             <li>
-              2024-2025 Robertson Colege<br></br>Full Stack Web Developer
-              <br></br>Edmonton, Canada
+              <b>2024-2025</b> Robertson Colege
+              <br />
+              Full Stack Web Developer
+              <br />
+              Edmonton, Canada
             </li>
             <li>
-              2014-2023 Catholic High School of St. Cyril and Methodius
-              <br></br>Snina, Slovakia
+              <b>2014-2023</b> Catholic High School of St. Cyril and Methodius
+              <br />
+              Snina, Slovakia
             </li>
             <li>
-              2010-2014 Elementary School No.2<br></br>Zbarazh, Ukraine
+              <b>2010-2014</b> Elementary School No.2
+              <br />
+              Zbarazh, Ukraine
             </li>
           </ul>
         </div>
@@ -35,32 +40,48 @@ const Body = () => {
           <h2>Experience</h2>
           <ul>
             <li>
-              2023-2023 TUMI - Sales Asocciate<br></br>Vaughan, Canada
+              <b>2023-2025</b> Math - Online Tutor
+              <br />
+              Online
             </li>
             <li>
-              2019-2023 Mini Zoo - Horse Riding Instructor & Activity Animator
-              <br></br>Snina, Slovakia
+              <b>2023-2023</b> TUMI - Sales Asocciate
+              <br />
+              Vaughan, Canada
+            </li>
+            <li>
+              <b>2019-2023</b> Mini Zoo - Horse Riding Instructor & Activity
+              Animator
+              <br />
+              Snina, Slovakia
             </li>
           </ul>
         </div>
 
         <div className="body-section">
           <img src="./photo2.png" className="body-photo2"></img>
-          <h2>Contact</h2>
-          <ul>
-            <li>Toronto, Canada</li>
-            <li>anastasia.smakula@gmail.com</li>
-            <li>4168767589</li>
-          </ul>
+          <div className="contact-details">
+            {" "}
+            <h2>Contact</h2>
+            <ul>
+              <li>Toronto, Canada</li>
+              <li>anastasia.smakula@gmail.com</li>
+              <li>416 876 7589</li>
+            </ul>
+          </div>
         </div>
 
         <div className="body-section">
           <h2>Technical Skills</h2>
+          <br />
           <h3>Software Skills</h3>
+          <ul>
+            <li>Microsoft Office, Google Workspace, Microsoft Teams</li>
+          </ul>
           <h3>Coding Skills</h3>
           <ul>
             <p>Basic knownledge of:</p>
-            <li>HTML CSS JS SQL React C#</li>
+            <li>HTML, CSS, JS, SQL, React, C#, TypeScript, ASP.NET</li>
           </ul>
         </div>
 

@@ -6,7 +6,9 @@ const Header = () => {
         <a href="#about">About</a>
         <a href="#resume">Resume</a>
         <a href="#work">Work</a>
-        <button>Get in touch!</button>
+        <a href="mailto:anastasia.smakula@gmail.com" className="action-button">
+          <button>Get in touch!</button>
+        </a>
       </div>
     </header>
   );
