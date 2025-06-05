@@ -58,17 +58,16 @@ const Body = () => {
           </ul>
         </div>
 
-        <div className="body-section">
-          <img src="./photo2.png" className="body-photo2"></img>
+        <div className="body-section contact-section">
           <div className="contact-details">
             {" "}
             <h2>Contact</h2>
             <ul>
               <li>Toronto, Canada</li>
               <li>anastasia.smakula@gmail.com</li>
-              <li>416 876 7589</li>
             </ul>
           </div>
+          <img src="./photo2.png" className="body-photo2"></img>
         </div>
 
         <div className="body-section">

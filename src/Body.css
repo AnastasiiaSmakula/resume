@@ -22,7 +22,6 @@
   width: 30rem;
   text-align: left;
   transition: background-color 0.4s ease;
-
 }
 
 .body-section:hover {
@@ -96,7 +95,11 @@
   width: 200px;
   display: block;
   margin-bottom: 20px;
+  flex: 1;
+  padding: 1rem;
 }
+
+
 
 .body-section h3{
   color: #3a6e57
@@ -162,4 +165,13 @@ h2, h3 {
   font-style: italic;
   color: #777;
   font-size: 14px;
+}
+
+.contact-section{
+  display: flex;
+}
+
+.contact-details{
+  flex: 1;
+  padding: 1rem;
 }
