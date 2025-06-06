@@ -3,7 +3,7 @@ const Body = () => {
   return (
     <div className="body">
       <div className="body-holder">
-        <div className="body-section">
+        <div className="body-section" id="about">
           <h2>Hello, I am Anastasiia!</h2>
           <p>
             I'm a Full Stack Web Developer based in Canada, with a background in
@@ -13,7 +13,7 @@ const Body = () => {
           </p>
         </div>
 
-        <div className="body-section">
+        <div className="body-section" id="education">
           <h2>Education</h2>
           <ul>
             <li>
@@ -36,7 +36,7 @@ const Body = () => {
           </ul>
         </div>
 
-        <div className="body-section">
+        <div className="body-section" id="work">
           <h2>Experience</h2>
           <ul>
             <li>
