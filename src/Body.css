@@ -41,6 +41,7 @@
   width: 1260px;
   justify-content: center;
   max-width: 100vw;
+  flex-wrap: wrap;
 }
 
 .action-button {
