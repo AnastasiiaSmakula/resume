@@ -95,13 +95,12 @@
 }
 
 .body-photo2 {
-  width: 200px;
+  width: 190px;
   display: block;
   margin-bottom: 20px;
   flex: 1;
   padding: 1rem;
 }
-
 
 
 .body-section h3{
@@ -172,9 +171,9 @@ h2, h3 {
 
 .contact-section{
   display: flex;
+  flex-wrap: wrap;
 }
 
 .contact-details{
   flex: 1;
-  padding: 1rem;
 }
