@@ -10,7 +10,7 @@ const Top = () => {
         <img src="./photo.png" className="body-photo"></img>
         <span className="body-photo-emoji-1"></span>
       </div>
-      <p>
+      <p className="bio">
         I'm passionate about web development and love learning new technologies.
         I enjoy building clean, user-friendly applications and solving problems
         through code.
@@ -23,7 +23,7 @@ const Top = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            /ana.sma
+            /anna.sma
           </a>
         </p>
         <p>

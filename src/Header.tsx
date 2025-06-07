@@ -4,7 +4,7 @@ const Header = () => {
       <h2>Anastasiia Smakula</h2>
       <div>
         <a href="#about">About</a>
-        <a href="#education">Education</a>
+        <a href="#education">School</a>
         <a href="#work">Work</a>
         <a href="mailto:anastasia.smakula@gmail.com" className="action-button">
           <button>Get in touch!</button>
