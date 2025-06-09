@@ -17,6 +17,7 @@
 }
 
 .body-section:hover h2,
+.body-section:hover h3,
 .project-link:hover{
   color: white; 
 }
@@ -49,7 +50,7 @@
   text-decoration: underline;
 }
 
-.body-section h2{
+.body-section h2, h3 {
   color: #f5b52e
 }
 

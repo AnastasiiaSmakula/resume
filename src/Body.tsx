@@ -83,8 +83,8 @@ const Body = () => {
 
         <Card title="Language">
           <ul>
-            <li>English - Fluent</li>
-            <li>Slovak - Fluent</li>
+            <li>English - Upper Intermediate</li>
+            <li>Slovak - Native</li>
             <li>Ukrainian - Native</li>
             <li>Russian - Native</li>
           </ul>
