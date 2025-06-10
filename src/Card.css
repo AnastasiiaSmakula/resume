@@ -14,6 +14,10 @@
 .body-section:hover {
   background-color: #f59e0b; 
   color: white;
+
+  ul {
+    border-left: 4px solid #ffffff
+  }
 }
 
 .body-section:hover h2,
