@@ -35,6 +35,9 @@
   color: #f4f0e3;
   margin: 0 12px;
   font-weight: bold;
+  background-color: transparent;
+  border: none;
+  font-size: 1rem;
 }
 
 .action-button {

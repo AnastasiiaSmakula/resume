@@ -1,17 +1,41 @@
-const Header = () => {
+interface HeaderProps {
+  aboutRef: React.RefObject<Element>;
+  educationRef: React.RefObject<Element>;
+  workRef: React.RefObject<Element>;
+}
+
+const Header = (props: HeaderProps) => {
+  const scrollToRef = (ref: React.RefObject<Element>) => {
+    if (ref.current) {
+      ref.current.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <header className="header">
       <h2>Anastasiia Smakula</h2>
       <div>
-        <a href="#about" className="header-link">
+        <button
+          onClick={() => scrollToRef(props.aboutRef)}
+          className="header-link"
+        >
           About
-        </a>
-        <a href="#education" className="header-link">
+        </button>
+
+        <button
+          onClick={() => scrollToRef(props.educationRef)}
+          className="header-link"
+        >
           School
-        </a>
-        <a href="#work" className="header-link">
+        </button>
+
+        <button
+          onClick={() => scrollToRef(props.workRef)}
+          className="header-link"
+        >
           Work
-        </a>
+        </button>
+
         <a href="mailto:anastasia.smakula@gmail.com" className="action-button">
           Get in touch!
         </a>

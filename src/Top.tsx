@@ -1,10 +1,20 @@
 import "./Top.css";
 import Header from "./Header";
 
-const Top = () => {
+interface TopProps {
+  aboutRef: React.RefObject<any>;
+  educationRef: React.RefObject<any>;
+  workRef: React.RefObject<any>;
+}
+
+const Top = (props: TopProps) => {
   return (
     <div className="top-container">
-      <Header />
+      <Header
+        aboutRef={props.aboutRef}
+        educationRef={props.educationRef}
+        workRef={props.workRef}
+      />
       <div className="portfolio-title"></div>
       <div className="body-photo-container">
         <img src="./photo.png" className="body-photo"></img>

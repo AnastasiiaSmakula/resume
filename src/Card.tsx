@@ -6,11 +6,12 @@ interface CardProps {
   id?: string;
   extraStyles?: string;
   children: React.ReactNode;
+  ref?: React.RefObject<any>;
 }
 
-const Card = ({ title, id, extraStyles, children }: CardProps) => {
+const Card = ({ title, id, extraStyles, children, ref }: CardProps) => {
   return (
-    <div className={"body-section " + extraStyles} id={id}>
+    <div className={"body-section " + extraStyles} id={id} ref={ref}>
       <h2>{title}</h2>
       {children}
     </div>

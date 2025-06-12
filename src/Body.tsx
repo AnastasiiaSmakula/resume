@@ -1,10 +1,16 @@
 import "./Body.css";
 import Card from "./Card";
-const Body = () => {
+
+interface BodyProps {
+  aboutRef: React.RefObject<any>;
+  educationRef: React.RefObject<any>;
+  workRef: React.RefObject<any>;
+}
+const Body = (props: BodyProps) => {
   return (
     <div className="body">
       <div className="body-holder">
-        <Card title="Hello, I am Anastasiia!" id="about">
+        <Card title="Hello, I am Anastasiia!" id="about" ref={props.aboutRef}>
           <p>
             I'm a Full Stack Web Developer based in Canada, with a background in
             tech, communication, and customer experience. I recently graduated
@@ -13,10 +19,10 @@ const Body = () => {
           </p>
         </Card>
 
-        <Card title="Education" id="education">
+        <Card title="Education" id="education" ref={props.educationRef}>
           <ul>
             <li>
-              <b>2024-2025</b> Robertson Colege
+              <b>2024-2025</b> Robertson College
               <br />
               Full Stack Web Developer
               <br />
@@ -35,7 +41,7 @@ const Body = () => {
           </ul>
         </Card>
 
-        <Card title="Experience" id="work">
+        <Card title="Experience" id="work" ref={props.workRef}>
           <ul>
             <li>
               <b>2023-2025</b> Math - Online Tutor
