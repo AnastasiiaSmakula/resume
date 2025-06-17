@@ -1,5 +1,6 @@
 import "./Body.css";
 import Card from "./Card";
+import Timeline from "./Timeline";
 
 interface BodyProps {
   aboutRef: React.RefObject<any>;
@@ -20,46 +21,51 @@ const Body = (props: BodyProps) => {
         </Card>
 
         <Card title="Education" id="education" ref={props.educationRef}>
-          <ul>
-            <li>
-              <b>2024-2025</b> Robertson College
-              <br />
-              Full Stack Web Developer
-              <br />
-              Edmonton, Canada
-            </li>
-            <li>
-              <b>2014-2023</b> Catholic High School of St. Cyril and Methodius
-              <br />
-              Snina, Slovakia
-            </li>
-            <li>
-              <b>2010-2014</b> Elementary School No.2
-              <br />
-              Zbarazh, Ukraine
-            </li>
-          </ul>
+          <Timeline
+            events={[
+              {
+                date: `2024-2025`,
+                shortText: `Full Stack Web Developer`,
+                longText: `Edmonton, Canada`,
+              },
+
+              {
+                date: `2014-2023`,
+                shortText: `Catholic High School of St. Cyril and Methodius`,
+                longText: `Snina, Slovakia`,
+              },
+
+              {
+                date: `2010-2014`,
+                shortText: `Elementary School No.2`,
+                longText: `Zbarazh, Ukraine`,
+              },
+            ]}
+          />
         </Card>
 
         <Card title="Experience" id="work" ref={props.workRef}>
-          <ul>
-            <li>
-              <b>2023-2025</b> Math - Online Tutor
-              <br />
-              Online
-            </li>
-            <li>
-              <b>2023-2023</b> TUMI - Sales Asocciate
-              <br />
-              Vaughan, Canada
-            </li>
-            <li>
-              <b>2019-2023</b> Mini Zoo - Horse Riding Instructor & Activity
-              Animator
-              <br />
-              Snina, Slovakia
-            </li>
-          </ul>
+          <Timeline
+            events={[
+              {
+                date: `2023-2025`,
+                shortText: `Math - Online Tutor`,
+                longText: `Online`,
+              },
+
+              {
+                date: `2022-2022`,
+                shortText: `TUMI - Sales Asocciate`,
+                longText: `Vaughan, Canada`,
+              },
+
+              {
+                date: `2019-2022`,
+                shortText: `Mini Zoo - Horse Riding Instructor & Activity`,
+                longText: `Snina, Slovakia`,
+              },
+            ]}
+          />
         </Card>
 
         <Card title="Contact">

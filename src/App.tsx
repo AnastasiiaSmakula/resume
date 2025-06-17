@@ -9,6 +9,8 @@ function App() {
   const educationRef = useRef<Element | null>(null);
   const workRef = useRef<Element | null>(null);
 
+  // usestate
+  // provider ktory pouziva ten usestate + estee v komponentoch pouzit useContext
   return (
     <>
       <Top aboutRef={aboutRef} educationRef={educationRef} workRef={workRef} />
