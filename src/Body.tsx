@@ -46,7 +46,7 @@ const Body = (props: BodyProps) => {
                 date: `2010-2014`,
                 shortText: `Elementary School No.2`,
                 longText: `Zbarazh, Ukraine`,
-                longLongText: `Built foundational skills in literacy, numeracy, and social development.`,
+                // longLongText: `Built foundational skills in literacy, numeracy, and social development.`,
               },
             ]}
           />
@@ -96,12 +96,14 @@ const Body = (props: BodyProps) => {
           <br />
           <h3>Software Skills</h3>
           <ul>
-            <li>Microsoft Office, Google Workspace, Microsoft Teams</li>
+            <li>Microsoft Office, Google Workspace, Microsoft Teams, Zoom</li>
           </ul>
           <h3>Coding Skills</h3>
           <ul>
             <p>Basic knownledge of:</p>
-            <li>HTML, CSS, JS, SQL, React, C#, TypeScript, ASP.NET</li>
+            <li>
+              HTML, CSS, JS, Java, SQL, React, C#, TypeScript, ASP.NET, GitHub
+            </li>
           </ul>
         </Card>
 
