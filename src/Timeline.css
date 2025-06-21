@@ -1,0 +1,22 @@
+.list-item{
+  transition: ease-out 0.5s;
+}
+
+.list-item:hover {
+    background-color: #fcc550;
+    border-radius: 1rem;
+    cursor: pointer;  
+}
+
+.lbase {
+    transition: ease-out 1s;
+}
+
+.long-long-text{
+ opacity: 0;
+ max-height: 0;
+}
+.long-long-text-selected{
+opacity: 1;
+max-height: 1000px;
+}

@@ -7,6 +7,7 @@ interface BodyProps {
   educationRef: React.RefObject<any>;
   workRef: React.RefObject<any>;
 }
+
 const Body = (props: BodyProps) => {
   return (
     <div className="body">
@@ -27,18 +28,25 @@ const Body = (props: BodyProps) => {
                 date: `2024-2025`,
                 shortText: `Full Stack Web Developer`,
                 longText: `Edmonton, Canada`,
+                longLongText: `An intensive program focused on developing web applications from the ground up to more advanced levels.
+                I learned to work with HTML, CSS, JavaScript, TypeScript, React, Node.js, Express, ASP.NET, MongoDB, and Git. I understand the principles of REST APIs, database operations, and deploying applications to servers.
+                During the course, I built several fully functional applications as part of my learning process, including small tools like to-do lists and simple interfaces with authentication or interactive components.
+                This program helped me build a strong foundation in full stack development and taught me how to write clean, efficient, and maintainable code using modern technologies.`,
               },
 
               {
                 date: `2014-2023`,
                 shortText: `Catholic High School of St. Cyril and Methodius`,
                 longText: `Snina, Slovakia`,
+                longLongText: `Completed general secondary education with a full graduation diploma.
+                Graduated with final exams in Slovak language, English, Russian, and Civics. Actively participated in various history and mathematics competitions and academic olympiads, developing strong analytical and critical thinking skills.`,
               },
 
               {
                 date: `2010-2014`,
                 shortText: `Elementary School No.2`,
                 longText: `Zbarazh, Ukraine`,
+                longLongText: `Built foundational skills in literacy, numeracy, and social development.`,
               },
             ]}
           />
@@ -51,18 +59,22 @@ const Body = (props: BodyProps) => {
                 date: `2023-2025`,
                 shortText: `Math - Online Tutor`,
                 longText: `Online`,
+                longLongText: `Provided one-on-one and small group online tutoring in mathematics for high school and university students.
+                Explained complex mathematical concepts clearly, helped improve problem-solving skills, and prepared students for exams. Used interactive tools and tailored teaching methods to suit individual learning needs.`,
               },
 
               {
                 date: `2022-2022`,
                 shortText: `TUMI - Sales Asocciate`,
                 longText: `Vaughan, Canada`,
+                longLongText: `Provided excellent customer service by assisting clients in selecting products and answering their questions. Maintained store appearance, managed inventory, and processed transactions efficiently. Developed strong communication and sales skills in a fast-paced retail environment.`,
               },
 
               {
                 date: `2019-2022`,
                 shortText: `Mini Zoo - Horse Riding Instructor & Activity`,
                 longText: `Snina, Slovakia`,
+                longLongText: `Provided horse riding lessons and supervised safety for beginners and intermediate riders. Organized outdoor activities and events, ensuring a positive experience for visitors. `,
               },
             ]}
           />

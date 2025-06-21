@@ -38,6 +38,7 @@
   background-color: transparent;
   border: none;
   font-size: 1rem;
+  cursor: pointer;
 }
 
 .action-button {
