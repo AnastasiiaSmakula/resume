@@ -20,3 +20,10 @@
 opacity: 1;
 max-height: 1000px;
 }
+
+
+
+body.night-mode .list-item:hover {
+  background-color: #d69e2e;
+  color: #1f2e2c;
+}

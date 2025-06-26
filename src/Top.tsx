@@ -1,5 +1,6 @@
 import "./Top.css";
 import Header from "./Header";
+import { useNightModeContext } from "./NightModeContext";
 
 interface TopProps {
   aboutRef: React.RefObject<any>;
@@ -8,6 +9,10 @@ interface TopProps {
 }
 
 const Top = (props: TopProps) => {
+  // const { mode, setMode } = useNightModeContext();
+
+  // const toggleMode = () => setMode(!mode);
+
   return (
     <div className="top-container">
       <Header

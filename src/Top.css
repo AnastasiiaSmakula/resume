@@ -59,3 +59,38 @@
 .bio{
   padding: 0 2rem;
 }
+
+.night-mode-button {
+  background-color: transparent;
+  border: none;
+  filter:invert();
+  cursor: pointer;
+}
+
+.button-image{
+  max-width: 2rem;
+  @media (min-width: 500px) {
+    margin-left: 1rem;
+  }
+}
+
+
+
+
+.top-container {
+  background-color: #1e3d2f; 
+  color: #fff;
+}
+
+body.night-mode .top-container {
+  background-color: #1f2e2c;
+  color: #f5f0e1;
+}
+
+.social-links a {
+  color: #f5b52e;
+}
+
+body.night-mode .social-links a:hover {
+  color: #ffffff;
+}

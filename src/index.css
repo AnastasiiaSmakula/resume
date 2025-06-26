@@ -1,3 +1,10 @@
 body {
   min-width: 100vw;
 }
+
+
+body.night-mode {
+  background-color: #1f2e2c;
+  color: #f5f0e1;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}

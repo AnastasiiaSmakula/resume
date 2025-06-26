@@ -1,0 +1,26 @@
+.header-buttons{
+    display: flex;
+}
+
+
+
+body.night-mode .header h2 {
+  color: #f5f0e1;
+}
+
+body.night-mode .header-link {
+  color: #f5b52e;
+}
+
+body.night-mode .header-link:hover {
+  color: #ffffff;
+}
+
+body.night-mode .action-button {
+  background-color: #f5b52e;
+  color: #1f2e2c;
+}
+
+body.night-mode .action-button:hover {
+  background-color: #d69e2e;
+}
