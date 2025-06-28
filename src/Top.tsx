@@ -1,6 +1,5 @@
 import "./Top.css";
 import Header from "./Header";
-import { useNightModeContext } from "./NightModeContext";
 
 interface TopProps {
   aboutRef: React.RefObject<any>;
