@@ -102,6 +102,7 @@ const Body = (props: BodyProps) => {
           <ul>
             <p>Basic knownledge of:</p>
             <li>
+              {/* <img src="./icons/html-5.png" className="coding-skill-icons" /> */}
               HTML, CSS, JS, Java, SQL, React, C#, TypeScript, ASP.NET, GitHub
             </li>
           </ul>
