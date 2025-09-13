@@ -56,6 +56,12 @@ const Body = (props: BodyProps) => {
           <Timeline
             events={[
               {
+                date: `2025 - present`,
+                shortText: `Defend - Game Developer Intern `,
+                longText: `Ontario, Canada`,
+                longLongText: `Create documentation for game platform app, learning game development and C# programming patterns in a professional environment. Currently working on demos for the internal team.`,
+              },
+              {
                 date: `2023-2025`,
                 shortText: `Math - Online Tutor`,
                 longText: `Online`,
@@ -70,12 +76,12 @@ const Body = (props: BodyProps) => {
                 longLongText: `Provided excellent customer service by assisting clients in selecting products and answering their questions. Maintained store appearance, managed inventory, and processed transactions efficiently. Developed strong communication and sales skills in a fast-paced retail environment.`,
               },
 
-              {
-                date: `2019-2022`,
-                shortText: `Mini Zoo - Horse Riding Instructor & Activity`,
-                longText: `Snina, Slovakia`,
-                longLongText: `Provided horse riding lessons and supervised safety for beginners and intermediate riders. Organized outdoor activities and events, ensuring a positive experience for visitors. `,
-              },
+              // {
+              //   date: `2019-2022`,
+              //   shortText: `Mini Zoo - Horse Riding Instructor & Activity`,
+              //   longText: `Snina, Slovakia`,
+              //   longLongText: `Provided horse riding lessons and supervised safety for beginners and intermediate riders. Organized outdoor activities and events, ensuring a positive experience for visitors. `,
+              // },
             ]}
           />
         </Card>
@@ -103,7 +109,43 @@ const Body = (props: BodyProps) => {
             <p>Basic knownledge of:</p>
             <li>
               {/* <img src="./icons/html-5.png" className="coding-skill-icons" /> */}
-              HTML, CSS, JS, Java, SQL, React, C#, TypeScript, ASP.NET, GitHub
+              Unity, HTML, CSS, JS, Java, SQL, React, C#, TypeScript, ASP.NET,
+              GitHub
+            </li>
+          </ul>
+        </Card>
+
+        <Card title="Projects">
+          <ul>
+            <li>
+              <a
+                href="https://github.com/AnastasiiaSmakula/resume"
+                className="project-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GitHub - Resume Project
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/AnastasiiaSmakula/unity-game"
+                className="project-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GitHub - Unity Game Project
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://anastasiia-smakula.itch.io/flarpy-blorb"
+                className="project-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Demo - Unity Game Project
+              </a>
             </li>
           </ul>
         </Card>
@@ -120,21 +162,6 @@ const Body = (props: BodyProps) => {
         <Card title="Hobbies & Interests">
           <ul>
             <li>Kickboxing, Horse Riding, Sports</li>
-          </ul>
-        </Card>
-
-        <Card title="Projects">
-          <ul>
-            <li>
-              <a
-                href="https://github.com/AnastasiiaSmakula/resume"
-                className="project-link"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                GitHub - Resume Project
-              </a>
-            </li>
           </ul>
         </Card>
       </div>
