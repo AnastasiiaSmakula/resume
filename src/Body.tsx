@@ -1,6 +1,8 @@
+import { useState } from "react";
 import "./Body.css";
 import Card from "./Card";
 import Timeline from "./Timeline";
+import Modal from "react-modal";
 
 interface BodyProps {
   aboutRef: React.RefObject<any>;
@@ -8,9 +10,39 @@ interface BodyProps {
   workRef: React.RefObject<any>;
 }
 
+const customStyles = {
+  content: {
+    top: "50%",
+    left: "50%",
+    right: "auto",
+    bottom: "auto",
+    marginRight: "-50%",
+    transform: "translate(-50%, -50%)",
+  },
+};
+
 const Body = (props: BodyProps) => {
+  const [gameModalIsOpen, setGameModalIsOpen] = useState(false);
+
   return (
     <div className="body">
+      <Modal
+        isOpen={gameModalIsOpen}
+        style={customStyles}
+        onRequestClose={() => setGameModalIsOpen(false)}
+      >
+        <iframe
+          frameBorder="0"
+          src="https://itch.io/embed-upload/14947317?color=333333"
+          allowFullScreen={false}
+          width="640"
+          height="380"
+        >
+          <a href="https://anastasiia-smakula.itch.io/flarpy-blorb">
+            Play Flarpy Blorb on itch.io
+          </a>
+        </iframe>
+      </Modal>
       <div className="body-holder">
         <Card title="Hello, I am Anastasiia!" id="about" ref={props.aboutRef}>
           <p>
@@ -139,10 +171,8 @@ const Body = (props: BodyProps) => {
             </li>
             <li>
               <a
-                href="https://anastasiia-smakula.itch.io/flarpy-blorb"
                 className="project-link"
-                target="_blank"
-                rel="noopener noreferrer"
+                onClick={() => setGameModalIsOpen(true)}
               >
                 Demo - Unity Game Project
               </a>
